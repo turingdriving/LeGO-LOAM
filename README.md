@@ -10,7 +10,7 @@ This repository contains code for a lightweight and ground optimized lidar odome
 
 ## Dependency
 
-- [ROS](http://wiki.ros.org/ROS/Installation) (tested with indigo and kinetic)
+- [ROS](http://wiki.ros.org/ROS/Installation) (tested with indigo, kinetic, and melodic)
 - [gtsam](https://github.com/borglab/gtsam/releases) (Georgia Tech Smoothing and Mapping library, 4.0.0-alpha2)
   ```
   wget -O ~/Downloads/gtsam.zip https://github.com/borglab/gtsam/archive/4.0.0-alpha2.zip
@@ -108,7 +108,7 @@ This dataset, [Stevens data-set](https://github.com/TixiaoShan/Stevens-VLP16-Dat
 
 ## Cite *LeGO-LOAM*
 
-Thank you for citing our *LeGO-LOAM* paper if you use any of this code: 
+Thank you for citing [our *LeGO-LOAM* paper](./Shan_Englot_IROS_2018_Preprint.pdf) if you use any of this code: 
 ```
 @inproceedings{legoloam2018,
   title={LeGO-LOAM: Lightweight and Ground-Optimized Lidar Odometry and Mapping on Variable Terrain},
